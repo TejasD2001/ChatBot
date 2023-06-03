@@ -1,0 +1,40 @@
+body {
+  background-image: url("C:/Users/tejas/OneDrive/Desktop/Aura/mental-health-nlp-chatbot-main/Website Images/Wallpaper 1.webp");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    color: white;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+}
+
+h1{
+  color: white;
+}
+
+img{
+  height: 100px;
+  width: 200px;
+}

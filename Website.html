@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MedBot</title>
+        <link rel="icon" type="image/x-icon" href="C:\Users\tejas\OneDrive\Desktop\MEGA PROJECT\Project\Aura\Images\Icon\apple-touch-icon.png">
+        <style>
+            body {background-image: url("Images/Wallpaper/Wallpaper 3.jpg");
+                  background-position: 50%;
+                  background-repeat: no-repeat;}
+            h1   {color: blue;}
+            p    {color: red;}
+        </style>
+    </head>
+    <body style="background-color:powderblue;">
+        <h1>Run Python</h1>
+        <button onclick="runPython()">Click me to run Aura</button>
+        <script>
+            function runPython() {
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', '/run-python');
+            xhr.send();
+            }
+        </script>
+    </body>
+</html>
